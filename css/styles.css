@@ -11,7 +11,7 @@
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 24px;
+        line-height: 133%;
             
         display: flex;
         align-items: center;
@@ -29,7 +29,7 @@
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 24px;
+        line-height: 133%;
 
         display: flex;
         align-items: center;
@@ -43,18 +43,13 @@
         width: 48px;
         height: 24px;
 
-        /* Body Bold */
-
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
+        line-height: 150%;
 
         letter-spacing: 0.02em;
-
-        /* NAVY BLUE */
 
         color: #2E2F42;
     }
@@ -65,9 +60,9 @@
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
 
         letter-spacing: 0.02em;
 
@@ -80,9 +75,9 @@
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
 
         letter-spacing: 0.02em;
 
@@ -99,7 +94,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
 
         letter-spacing: 0.02em;
 
@@ -114,9 +109,9 @@
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 107%;
 
         text-align: center;
         letter-spacing: 0.02em;
@@ -124,7 +119,7 @@
         color: #FFFFFF;
     }
 
-    .button{
+    button .button {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -133,19 +128,54 @@
 
         width: 170px;
         height: 51px;
-        left: 635px;
-        top: 432px;
+        left: 20px;
+        top: 156px;
 
-        background: #4D5AE5;
+        background: #404BBF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 119%;
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+    }
+
+    .button .button:hover {
+        background: #4D5AE5;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 4px;
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 119%;
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+
+        color: #FFFFFF;
+    }
+
+    .button .button:focus {
+        background: #4D5AE5;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 4px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 119%;
 
         display: flex;
         align-items: center;
@@ -160,9 +190,9 @@
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 120%;
 
         letter-spacing: 0.02em;
 
@@ -177,7 +207,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
 
         letter-spacing: 0.02em;
 
@@ -186,10 +216,12 @@
 
     h2 {font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 111%;
+        
         letter-spacing: 0.02em;
+
         text-transform: capitalize;
         color: #2E2F42;}
 
@@ -211,9 +243,9 @@
         height: 24px;
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 120%;
 
         text-align: center;
         letter-spacing: 0.02em;
@@ -229,7 +261,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
 
         text-align: center;
         letter-spacing: 0.02em;
@@ -250,7 +282,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
         
         letter-spacing: 0.02em;
         
@@ -258,61 +290,67 @@
     }
 
     .portfolio-links .link-top {
-        box-sizing: border-box;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 8px 16px;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
 
-        width: 126px;
-        height: 48px;
+        width: 170px;
+        height: 51px;
+        left: 20px;
+        top: 156px;
 
-        background: #F4F4FD;
-
-        border: 1px solid #E7E9FC;
+        background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        
+
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
-        
+        line-height: 119%;
+
+        display: flex;
         align-items: center;
-        text-align: center;
         letter-spacing: 0.04em;
-        
-        color: #4D5AE5;
+
+        color: #FFFFFF;
     }
 
     .portfolio-links .link-top:hover {
         background: #4D5AE5;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 4px;
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
-        
+        line-height: 119%;
+
+        display: flex;
         align-items: center;
-        text-align: center;
         letter-spacing: 0.04em;
+
         color: #FFFFFF;
     }
 
     .portfolio-links .link-top:focus {
         background: #4D5AE5;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 4px;
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
-        
+        line-height: 119%;
+
+        display: flex;
         align-items: center;
-        text-align: center;
         letter-spacing: 0.04em;
+
         color: #FFFFFF;
     }
     .picture img {
@@ -332,9 +370,9 @@
 
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 120%;
         
         letter-spacing: 0.02em;
 
@@ -349,7 +387,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
 
         letter-spacing: 0.02em;
 
@@ -366,7 +404,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 150%;
 
         letter-spacing: 0.02em;
 
