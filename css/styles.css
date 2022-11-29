@@ -1,18 +1,14 @@
     body {
-        font-family: "Roboto";
+        font-family: "Roboto", "Raleway", "sans-serif";
         font-weight: 400, 500,700,900;
     }
 
     .link{
-        width: 44px;
-        height: 24px;
         text-decoration: none;
             
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 133%;
+        line-height: 1.33;
             
         display: flex;
         align-items: center;
@@ -23,15 +19,11 @@
     }
 
     .logo{
-        width: 71px;
-        height: 24px;
         text-decoration: none;
 
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 133%;
+        line-height: 1.33;
 
         display: flex;
         align-items: center;
@@ -42,115 +34,151 @@
     }
 
     .linkstudio {
-        width: 48px;
-        height: 24px;
         text-decoration: none;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         letter-spacing: 0.02em;
 
         color: #2E2F42;
     }
 
-    .linkstudio :hover{
+    .linkstudio:hover {
+        text-decoration: none;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
         color: #4D5AE5;
     }
 
-    .linkstudio :focus{
+    .linkstudio:focus {
+        text-decoration: none;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
         color: #4D5AE5;
     }
 
     .linkportf {
-        width: 66px;
-        height: 24px;
         text-decoration: none;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         letter-spacing: 0.02em;
 
         color: #2E2F42;
     }
 
-    .linkportf :hover {
+    .linkportf:hover {
+        text-decoration: none;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
         color: #4D5AE5;
     }
 
-    .linkportf :focus {
+    .linkportf:focus {
+        text-decoration: none;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
         color: #4D5AE5;
     }
 
     .linkcont {
-        width: 67px;
-        height: 24px;
         text-decoration: none;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         letter-spacing: 0.02em;
 
         color: #2E2F42;
     }
 
-    .linkcont :hover {
+    .linkcont:hover {
+        text-decoration: none;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
+
         color: #4D5AE5;        ;
     }
 
-    .linkcont :focus{
+    .linkcont:focus{
+        text-decoration: none;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
+
         color: #4D5AE5;
     }
 
     .linktelmail {
-        width: 153px;
-        height: 24px;
-        left: 940px;
-        top: 24px;
         text-decoration: none;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         letter-spacing: 0.02em;
 
         color: #434455;
     }
 
-    .linktelmail :hover {
+    .linktelmail:hover {
+        text-decoration: none;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
         color: #4D5AE5;
     }
 
-    .linktelmail :focus {
+    .linktelmail:focus {
+        text-decoration: none;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.50;
+
+        letter-spacing: 0.02em;
         color: #4D5AE5;
+    }
+
+    .top {
+        background-color: #2E2F42;
     }
 
     h1 {
-        width: 492px;
-        height: 120px;
-        left: 474px;
-        top: 264px;
-        background: #2E2F42;
-
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 56px;
-        line-height: 107%;
+        line-height: 1.07;
 
         text-align: center;
         letter-spacing: 0.02em;
@@ -170,15 +198,13 @@
         left: 20px;
         top: 156px;
 
-        background: #404BBF;
+        background-color: #404BBF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 119%;
+        line-height: 1.19;
 
         display: flex;
         align-items: center;
@@ -187,8 +213,8 @@
         color: #FFFFFF;
     }
 
-    button :hover {
-        background: #4D5AE5;
+    button:hover {
+        background-color: #4D5AE5;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 4px;
 
@@ -196,7 +222,7 @@
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 119%;
+        line-height: 1.19;
 
         display: flex;
         align-items: center;
@@ -205,8 +231,8 @@
         color: #FFFFFF;
     }
 
-    button :focus {
-        background: #4D5AE5;
+    button:focus {
+        background-color: #4D5AE5;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 4px;
 
@@ -214,7 +240,7 @@
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 119%;
+        line-height: 1.19;
 
         display: flex;
         align-items: center;
@@ -224,14 +250,9 @@
     }
 
     .services h3 {
-        width: 264px;
-        height: 24px;
-
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.20;
 
         letter-spacing: 0.02em;
 
@@ -239,52 +260,45 @@
     }
 
     .services p {
-        width: 264px;
-        height: 72px;
-
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         letter-spacing: 0.02em;
 
         color: #434455;
     }
 
-    h2 {font-family: 'Roboto';
-        font-style: normal;
+    h2 {
         font-weight: 500;
         font-size: 36px;
-        line-height: 111%;
+        line-height: 1.11;
         
         letter-spacing: 0.02em;
 
         text-transform: capitalize;
-        color: #2E2F42;}
+        color: #2E2F42;
+    }
 
-    .rectangle { box-sizing: border-box;
+    .rectangle { 
+        box-sizing: border-box;
         width: 360px;
         height: 300px;
-        background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
+        background-color: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
         background-blend-mode: soft-light, normal;
         border: 1px solid #E7E9FC;
     }
 
-    .team {width: 264px;
+    .team {
+        width: 264px;
         height: 260px;
         mix-blend-mode: normal;
     }
 
     .staff h3 {
-        width: 140px;
-        height: 24px;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.20;
 
         text-align: center;
         letter-spacing: 0.02em;
@@ -293,14 +307,9 @@
     }
 
     .staff p {
-        width: 144px;
-        height: 24px;
-
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         text-align: center;
         letter-spacing: 0.02em;
@@ -308,21 +317,17 @@
         color: #434455;
     }
 
+    footer {
+        background-color: #2E2F42;
+    }
     .footer .logo {
-        background: #2E2F42;
         color: #F4F4FD;
     }
 
-    .footer p {width: 264px;
-        height: 72px;
-        left: 156px;
-        top: 2421px;
-        background: #2E2F42;
-        font-family: 'Roboto';
-        font-style: normal;
+    .footer p {
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
         
         letter-spacing: 0.02em;
         
@@ -341,15 +346,13 @@
         left: 20px;
         top: 156px;
 
-        background: #404BBF;
+        background-color: #404BBF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 119%;
+        line-height: 1.19;
 
         display: flex;
         align-items: center;
@@ -359,15 +362,13 @@
     }
 
     .portfolio-links button:hover {
-        background: #4D5AE5;
+        background-color: #4D5AE5;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 4px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 119%;
+        line-height: 1.19;
 
         display: flex;
         align-items: center;
@@ -377,15 +378,13 @@
     }
 
     .portfolio-links button:focus {
-        background: #4D5AE5;
+        background-color: #4D5AE5;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 4px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 119%;
+        line-height: 1.19;
 
         display: flex;
         align-items: center;
@@ -399,7 +398,7 @@
         left: 0px;
         top: 0px;
 
-        background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365);
+        background-color: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365);
         background-blend-mode: soft-light, normal;
         mix-blend-mode: normal;
     }
@@ -408,11 +407,9 @@
         width: 291px;
         height: 24px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.20;
         
         letter-spacing: 0.02em;
 
@@ -423,28 +420,24 @@
         width: 75px;
         height: 24px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         letter-spacing: 0.02em;
 
         color: #434455;
     }
 
-    .picture h6 {
+    .picture .inside {
         width: 296px;
         height: 96px;
         left: 32px;
         top: 40px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.50;
 
         letter-spacing: 0.02em;
 
