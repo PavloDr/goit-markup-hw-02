@@ -1,6 +1,5 @@
     body {
-        font-family: "Roboto", "Raleway", "sans-serif";
-        font-weight: 400, 500,700,900;
+        font-family: "Roboto", "sans-serif";
     }
 
     .link{
@@ -45,18 +44,7 @@
         color: #2E2F42;
     }
 
-    .linkstudio:hover {
-        text-decoration: none;
-
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.50;
-
-        letter-spacing: 0.02em;
-        color: #4D5AE5;
-    }
-
-    .linkstudio:focus {
+    .linkstudio:hover, .linkstudio:focus {
         text-decoration: none;
 
         font-weight: 500;
@@ -79,18 +67,7 @@
         color: #2E2F42;
     }
 
-    .linkportf:hover {
-        text-decoration: none;
-
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.50;
-
-        letter-spacing: 0.02em;
-        color: #4D5AE5;
-    }
-
-    .linkportf:focus {
+    .linkportf:hover, .linkportf:focus {
         text-decoration: none;
 
         font-weight: 500;
@@ -113,7 +90,7 @@
         color: #2E2F42;
     }
 
-    .linkcont:hover {
+    .linkcont:hover, .linkcont:focus {
         text-decoration: none;
 
         font-weight: 500;
@@ -123,18 +100,6 @@
         letter-spacing: 0.02em;
 
         color: #4D5AE5;        ;
-    }
-
-    .linkcont:focus{
-        text-decoration: none;
-
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.50;
-
-        letter-spacing: 0.02em;
-
-        color: #4D5AE5;
     }
 
     .linktelmail {
@@ -149,18 +114,7 @@
         color: #434455;
     }
 
-    .linktelmail:hover {
-        text-decoration: none;
-
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.50;
-
-        letter-spacing: 0.02em;
-        color: #4D5AE5;
-    }
-
-    .linktelmail:focus {
+    .linktelmail:hover, .linktelmail:focus {
         text-decoration: none;
 
         font-weight: 400;
@@ -175,7 +129,7 @@
         background-color: #2E2F42;
     }
 
-    h1 {
+    .top h1 {
         font-weight: 500;
         font-size: 56px;
         line-height: 1.07;
@@ -186,7 +140,8 @@
         color: #FFFFFF;
     }
 
-    button {
+    .top button {
+        cursor: pointer;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -198,7 +153,7 @@
         left: 20px;
         top: 156px;
 
-        background-color: #404BBF;
+        background-color: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 
@@ -213,13 +168,11 @@
         color: #FFFFFF;
     }
 
-    button:hover {
-        background-color: #4D5AE5;
+    .top button:hover, .top button:focus {
+        background-color: #404BBF;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 4px;
 
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -231,24 +184,9 @@
         color: #FFFFFF;
     }
 
-    button:focus {
-        background-color: #4D5AE5;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 4px;
-
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-
-        color: #FFFFFF;
+    .serv {
+        list-style: none;
     }
-
     .services h3 {
         font-weight: 500;
         font-size: 20px;
@@ -269,7 +207,10 @@
         color: #434455;
     }
 
-    h2 {
+    .doing {
+        list-style: none;
+    }
+    .doing h2 {
         font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
@@ -290,6 +231,7 @@
     }
 
     .team {
+        list-style: none;
         width: 264px;
         height: 260px;
         mix-blend-mode: normal;
@@ -317,7 +259,8 @@
         color: #434455;
     }
 
-    footer {
+    .footer {
+        list-style: none;
         background-color: #2E2F42;
     }
     .footer .logo {
@@ -346,7 +289,7 @@
         left: 20px;
         top: 156px;
 
-        background-color: #404BBF;
+        background-color: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 
@@ -362,7 +305,8 @@
     }
 
     .portfolio-links button:hover {
-        background-color: #4D5AE5;
+        cursor: pointer;
+        background-color: #404BBF;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 4px;
 
