@@ -2,7 +2,7 @@
         font-family: "Roboto", "sans-serif";
     }
 
-    .link{
+    .link {
         text-decoration: none;
             
         font-weight: 800;
@@ -17,7 +17,7 @@
         color: #4D5AE5;
     }
 
-    .logo{
+    .logo {
         text-decoration: none;
 
         font-weight: 800;
@@ -207,10 +207,7 @@
         color: #434455;
     }
 
-    .doing {
-        list-style: none;
-    }
-    .doing h2 {
+    .rect h2 {
         font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
@@ -222,6 +219,7 @@
     }
 
     .rectangle { 
+        list-style: none;
         box-sizing: border-box;
         width: 360px;
         height: 300px;
@@ -230,7 +228,18 @@
         border: 1px solid #E7E9FC;
     }
 
-    .team {
+    .team h2 {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.11;
+        
+        letter-spacing: 0.02em;
+
+        text-transform: capitalize;
+        color: #2E2F42;
+    }
+
+    .team ul {
         list-style: none;
         width: 264px;
         height: 260px;
