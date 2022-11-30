@@ -2,6 +2,10 @@
         font-family: "Roboto", "sans-serif";
     }
 
+    ul {
+        list-style: none;
+    }
+
     .link {
         text-decoration: none;
             
@@ -184,9 +188,6 @@
         color: #FFFFFF;
     }
 
-    .serv {
-        list-style: none;
-    }
     .services h3 {
         font-weight: 500;
         font-size: 20px;
@@ -218,8 +219,7 @@
         color: #2E2F42;
     }
 
-    .rectangle { 
-        list-style: none;
+    .rectangle {
         box-sizing: border-box;
         width: 360px;
         height: 300px;
@@ -240,7 +240,6 @@
     }
 
     .team ul {
-        list-style: none;
         width: 264px;
         height: 260px;
         mix-blend-mode: normal;
@@ -269,7 +268,6 @@
     }
 
     .footer {
-        list-style: none;
         background-color: #2E2F42;
     }
     .footer .logo {
